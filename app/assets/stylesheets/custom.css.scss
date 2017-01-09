@@ -39,16 +39,24 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
-.article-actions{
+.article-meta-details {
+    text-align: right;
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.article-actions {
+  text-align: right;
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
-.description{
+.description {
   margin-top: 0px;
 }
 
-.article-title{
+.article-title {
   font-weight: bold;
   font-size: 1.5em;
 }
