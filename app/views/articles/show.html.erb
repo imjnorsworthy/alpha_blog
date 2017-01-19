@@ -17,6 +17,9 @@
   <h4 class="center description"><strong>Description:</strong></h4>
   <hr>
    <%= simple_format(@article.description) %>
+   <% if @article.categories.any? %>
+     <p>Categories: <%= render @article.categories %></p>
+   <% end %>
   <div class="article-actions">
     <!-- In this case we want to edit this instance of article so we can use the
     instance variable!!!-->

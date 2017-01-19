@@ -40,14 +40,12 @@ $navbar-default-bg: black;
 }
 
 .article-meta-details {
-    text-align: right;
     border-top: 1px solid #eaeaea;
     margin-top: 15px;
     padding-top: 10px;
 }
 
 .article-actions {
-  text-align: right;
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
@@ -72,6 +70,16 @@ list-style: none;
 padding-left: 0;
 }
 
+.badge {
+  background-color: #E2FCFE;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
 
 footer {
   margin-top: 45px;
